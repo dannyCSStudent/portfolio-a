@@ -5,7 +5,7 @@ import CanvasLoader from '../Loader';
 
 
 const Drones = ( { isMobile } ) => {
-  const drone = useGLTF('./buster_drone/scene.gltf');
+  const drone = useGLTF('./drone/scene.gltf');
  
   return (
    <mesh>
