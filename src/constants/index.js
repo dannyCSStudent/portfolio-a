@@ -111,47 +111,47 @@ export const navLinks = [
   const technologies = [
     {
       name: "HTML 5",
-      icon: html,
+      icon: figma,
     },
     {
       name: "CSS 3",
-      icon: css,
+      icon: figma,
     },
     {
       name: "JavaScript",
-      icon: javascript,
+      icon: figma,
     },
     {
       name: "TypeScript",
-      icon: typescript,
+      icon: figma,
     },
     {
       name: "React JS",
-      icon: reactjs,
+      icon: figma,
     },
     {
       name: "Redux Toolkit",
-      icon: redux,
+      icon: figma,
     },
     {
       name: "Tailwind CSS",
-      icon: tailwind,
+      icon: figma,
     },
     {
       name: "Node JS",
-      icon: nodejs,
+      icon: figma,
     },
     {
       name: "MongoDB",
-      icon: mongodb,
+      icon: figma,
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: figma,
     },
     {
       name: "Git",
-      icon: git,
+      icon: figma,
     },
     {
       name: "Figma",
@@ -159,7 +159,7 @@ export const navLinks = [
     },
     {
       name: "Docker",
-      icon: docker,
+      icon: figma,
     },
   ];
 
