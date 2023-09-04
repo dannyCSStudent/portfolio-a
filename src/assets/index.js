@@ -19,6 +19,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/next-js.svg";
+import sanity from "./tech/sanity.svg"
 
 import youTube from "./tech/youTube.png"
 
@@ -32,6 +34,8 @@ export {
     backend,
     creator,
     reactjs,
+    nextjs,
+    sanity,
     css,
     docker,
     figma,
