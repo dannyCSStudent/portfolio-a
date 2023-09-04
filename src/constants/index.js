@@ -16,8 +16,10 @@ import {
   redux,
   tailwind,
   typescript,
+  nike,
   threejs,
-  youTube
+  youTube,
+  threads
   } from '../assets'
 
 
@@ -125,7 +127,7 @@ export const navLinks = [
     },
     {
       name: "TypeScript",
-      icon: figma,
+      icon: typescript,
     },
     {
       name: "React JS",
@@ -148,34 +150,22 @@ export const navLinks = [
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "Git",
-      icon: figma,
-    },
-    {
-      name: "Figma",
       icon: git,
-    },
-    {
-      name: "Docker",
-      icon: docker,
-    },
+    }
   ];
   
   const projects = [
     {
-      name: "YouTube Clone",
-      description: "Full functioning YouTube clone using Rapid API",
+      name: "Threads Clone",
+      description: "Full functioning Threads clone with communities.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient"
         },
         {
-          name: "rapidapi",
+          name: "Next.js",
           color: "green-text-gradient"
         },
         {
@@ -183,8 +173,8 @@ export const navLinks = [
           color: "pink-text-gradient"
         },
       ],
-      image: youTube,
-      source_code_link: "https://github.com/"
+      image: threads,
+      source_code_link: "https://github.com/dannyCSStudent/threads-clone"
     },
     {
       name: "YouTube Clone",
@@ -204,27 +194,27 @@ export const navLinks = [
         },
       ],
       image: youTube,
-      source_code_link: "https://github.com/"
+      source_code_link: "https://github.com/dannyCSStudent/youtube-clone"
     },
     {
-      name: "YouTube Clone",
-      description: "Full functioning YouTube clone using Rapid API",
+      name: "Nike Landing Page",
+      description: "A Nike landing page with statistics and option to choice different styles..",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient"
         },
         {
-          name: "rapidapi",
+          name: "tailwind",
           color: "green-text-gradient"
         },
         {
-          name: "tailwind",
+          name: "vite",
           color: "pink-text-gradient"
         },
       ],
-      image: youTube,
-      source_code_link: "https://github.com/"
+      image: nike,
+      source_code_link: "https://github.com/dannyCSStudent/nike"
     }
   ]
 
