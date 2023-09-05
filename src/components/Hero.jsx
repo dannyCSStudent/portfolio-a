@@ -15,9 +15,11 @@ const Hero = () => {
         </div>
         
         <div>
-          <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#915eff]'>Dan</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develope social media, Ecommerce, <br className='sm:block hidden' />  and web applications
+          <h1 className={`${styles.heroHeadText}`}>Hello, I'm <span className='text-[#915eff]'>Dan</span></h1>
+          <p className={`${styles.heroSubText} mt-2 text-white`}>
+          a passionate website developer with a knack for crafting digital experiences that captivate and engage. 
+          With a creative flair and a strong technical foundation, I specialize in creating everything from dynamic 
+          e-commerce websites to eye-catching landing pages and even innovative social media applications.
 
           </p>
         </div>

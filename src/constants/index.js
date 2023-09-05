@@ -165,7 +165,7 @@ export const navLinks = [
           color: "blue-text-gradient"
         },
         {
-          name: "Next.js",
+          name: "next.js",
           color: "green-text-gradient"
         },
         {
