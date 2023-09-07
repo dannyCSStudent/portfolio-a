@@ -21,6 +21,11 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Build project
+        env:
+          VITE_SERVICE_KEY: ${{ secrets.VITE_SERVICE_KEY }}
+          VITE_TEMPLATE_KEY: ${{ secrets.VITE_TEMPLATE_KEY }}
+          VITE_EMAIL_KEY: ${{ secrets.VITE_EMAIL_KEY }}
+          VITE_API_KEY: ${{ secrets.VITE_API_KEY }}
         run: npm run build
 
       - name: Upload production-ready build files
