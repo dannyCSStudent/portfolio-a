@@ -19,7 +19,8 @@ import {
   nike,
   threejs,
   youTube,
-  threads
+  threads,
+  imageUploader,
   } from '../assets'
 
 
@@ -174,7 +175,30 @@ export const navLinks = [
         },
       ],
       image: threads,
-      source_code_link: "https://github.com/dannyCSStudent/threads-clone"
+      source_code_link: "https://github.com/dannyCSStudent/threads-clone",
+      site_link: "https://threads-clone-lg9rz89x2-dannycsstudent.vercel.app"
+    },
+    {
+      name: "Image Uploader",
+      description: "Upload images by clicking or drag and drop an image to pane.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient"
+        },
+        {
+          name: "next.js",
+          color: "green-text-gradient"
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient"
+        },
+      ],
+      image: imageUploader,
+    
+      source_code_link: "https://github.com/dannyCSStudent/image-uploader-nextjs",
+      site_link: "https://image-uploader-nextjs-rj7xmf28s-dannycsstudent.vercel.app"
     },
     {
       name: "YouTube Clone",
@@ -194,7 +218,8 @@ export const navLinks = [
         },
       ],
       image: youTube,
-      source_code_link: "https://github.com/dannyCSStudent/youtube-clone"
+      source_code_link: "https://github.com/dannyCSStudent/youtube-clone",
+      site_link: "https://dannycsstudent.github.io/youtube-clone"
     },
     {
       name: "Nike Landing Page",
@@ -214,7 +239,8 @@ export const navLinks = [
         },
       ],
       image: nike,
-      source_code_link: "https://github.com/dannyCSStudent/nike"
+      source_code_link: "https://github.com/dannyCSStudent/nike",
+      site_link: "https://dannycsstudent.github.io/nike/"
     }
   ]
 

@@ -25,6 +25,8 @@ import sanity from "./tech/sanity.svg"
 import youTube from "./tech/youTube.png"
 import threads from "./tech/threads-clone.png"
 import nike from "./tech/nike.png"
+import link from "./tech/link.png"
+import imageUploader from './tech/imageUploader.png';
 
 
 export {
@@ -33,7 +35,9 @@ export {
     close,
     web,
     github,
+    imageUploader,
     nike,
+    link,
     backend,
     creator,
     reactjs,
