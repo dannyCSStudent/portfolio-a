@@ -1,11 +1,7 @@
 import { 
   web, 
   reactjs, 
-  backend, 
-  creator,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -17,7 +13,6 @@ import {
   tailwind,
   typescript,
   nike,
-  threejs,
   youTube,
   threads,
   imageUploader,
@@ -98,7 +93,7 @@ export const navLinks = [
         "Contributed significantly to the company's noble mission of refurbishing and donating computer devices to schools in need. My work directly contributed to bridging the digital divide and promoting educational equity by enabling students to access technology resources."
       ] 
     },
-    ,{
+    {
       title: "Student",
       company_name: "Univerity of the People",
       icon: web,
